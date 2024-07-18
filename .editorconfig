@@ -1,4 +1,6 @@
 root = true
 
 [*]
-ij_kotlin_name_count_to_use_star_import = 2147483647
+ij_kotlin_name_count_to_use_star_import = 3
+ij_kotlin_tab_width = 2
+ij_kotlin_indent_size = 2
