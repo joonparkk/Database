@@ -25,6 +25,8 @@ voyager-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voy
 voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
 sonner = { module = "io.github.dokar3:sonner", version = "0.3.8" }
 logger = { module = "io.github.oshai:kotlin-logging", version = "7.0.0" }
+slf4j = { module = "org.slf4j:slf4j-api", version = "2.0.13" }
+logback = { module = "com.github.tony19:logback-android", version = "3.0.0" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

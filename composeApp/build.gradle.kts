@@ -48,6 +48,8 @@ kotlin {
       implementation(libs.voyager.koin)
       implementation(libs.sonner)
       implementation(libs.logger)
+      implementation(libs.slf4j)
+      implementation(libs.logback)
     }
   }
 }
