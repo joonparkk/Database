@@ -7,14 +7,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import cafe.adriel.voyager.core.screen.Screen
 import com.dokar.sonner.rememberToasterState
-import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.runBlocking
+import org.lighthousegames.logging.logging
 import kotlin.math.roundToInt
 
 data object StudentScreen : Screen {
   @Composable
   override fun Content() {
-    val log = KotlinLogging.logger{}
+    val log = logging()
     var email by remember { mutableStateOf("") }
     var firstName by remember { mutableStateOf("") }
     var lastName by remember { mutableStateOf("") }
